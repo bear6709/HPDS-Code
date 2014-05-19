@@ -1,7 +1,7 @@
 HPDS-Code
 =========
 
-Botnet detection algorithm:
+P2P Botnet Detection Algorithm:
 
 1. Multi-Edged PageRank
 
