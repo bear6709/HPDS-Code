@@ -9,10 +9,10 @@ P2P Botnet Detection Algorithm:
 
 3. SuperGroup & SimRank
 
-=========
+
 Traffic Input Data Format:
 
-      StartTime        Dur            SrcAddr  Sport            DstAddr  Dport  SrcPkts  DstPkts     SrcBytes     DstBytes    SrcLoss    DstLoss 
+      StartTime        Dur            SrcAddr  Sport            DstAddr  Dport         SrcPkts  DstPkts     SrcBytes     DstBytes    SrcLoss    DstLoss 
       23:00:02.944639   0.000000     140.112.10.220.26392     196.169.205.255.51963         1        0           60            0          0          0
       23:00:00.555499   0.109949    140.112.185.172.22          213.46.153.58.63675         3        0          282            0          0          0
       23:00:00.555618   0.508998     140.112.255.10.63299       147.213.202.2.80           44        0         2904            0          0          0
