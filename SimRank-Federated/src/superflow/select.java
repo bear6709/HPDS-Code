@@ -14,7 +14,13 @@ public class select {
 			
 			pgd.addClass("SFlowGroupMR", SFlowGroupMR.class, "Superflow group");
 			
-			pgd.addClass("LabelMR", LabelMR.class, "Give group number ID");
+			pgd.addClass("LabelMR", LabelMR.class, "Give number ID to a group");
+			
+			pgd.addClass("GraphMR", GraphMR.class, "For each pair of groups, construct edge with relationship.");
+			
+			pgd.addClass("SimRankMR2", SimRankMR2.class, "Compute similarity between each pair of groups");
+			
+			pgd.addClass("SortMR", SortMR.class, "Sort SimRank by score");
 			
 			pgd.driver(argv);
 

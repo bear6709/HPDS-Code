@@ -59,13 +59,15 @@ public class SFilterMR {
 				try{
 					stime = str[0]; 
 					dur = str[1]; 
-					dotPos = str[2].lastIndexOf(".");
-					if ( dotPos >= 0 ) {
+					
+					if(str[2].split("\\.").length == 5 ){
+						dotPos = str[2].lastIndexOf(".");
 						sip = str[2].substring(0, dotPos);
 						sport = str[2].substring( dotPos+1 );
 					}
-					dotPos = str[3].lastIndexOf(".");
-					if ( dotPos >= 0 ) {
+					
+					if(str[3].split("\\.").length == 5 ){
+						dotPos = str[3].lastIndexOf(".");
 						dip = str[3].substring(0, dotPos);
 						dport = str[3].substring( dotPos+1 );
 					}
